@@ -1,0 +1,7 @@
+{
+"documentId": "7c09b0c31d867776bda81da9", 
+"outputformat" :"urdf",
+"packageName": "hexapodLegC_description/legC",
+"robotName": "hexapod",
+"assemblyName":"ensambleC"
+}

@@ -1,0 +1,48 @@
+[0.610s] Invoking command in '/home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description -- -j2 -l2
+[0.832s] Invoked command in '/home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description -- -j2 -l2
+[1.018s] Invoking command in '/home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description
+[1.071s] -- Install configuration: ""
+[1.072s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//rviz
+[1.074s] -- Installing: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//rviz/hexapodv1.rviz
+[1.077s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//launch
+[1.078s] -- Installing: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//launch/hexapodv1.launch.py
+[1.080s] -- Installing: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//launch/start_rviz.launch.py
+[1.081s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1
+[1.081s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/tibiamot.stl
+[1.082s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/rudderdisk_v2.part
+[1.082s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/rudderdisk_v2.stl
+[1.083s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/config.json
+[1.083s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/yb-sd15m-top-cover-ld_v3.part
+[1.083s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/robot.urdf
+[1.084s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/yb-sd15m-top-cover-ld_v3.stl
+[1.084s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/yb-sd15m-middle-cover-ld_v2.part
+[1.084s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/part_1.stl
+[1.085s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/coxa.stl
+[1.085s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl
+[1.085s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/part_1.part
+[1.086s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/auxrudderdisk_v2.part
+[1.086s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/coxa.part
+[1.086s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/yb-sd15m-bottom-cover-ld_v2.part
+[1.103s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/tibia.part
+[1.104s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/tibia.stl
+[1.105s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/yb-sd15m-middle-cover-ld_v2.stl
+[1.105s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/auxrudderdisk_v2.stl
+[1.105s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/femuraux.part
+[1.105s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/tibiamot.part
+[1.105s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description//hexapodv1/femuraux.stl
+[1.106s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/ament_index/resource_index/package_run_dependencies/hexapod_description
+[1.107s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/ament_index/resource_index/parent_prefix_path/hexapod_description
+[1.108s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/environment/ament_prefix_path.sh
+[1.108s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/environment/ament_prefix_path.dsv
+[1.108s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/environment/path.sh
+[1.108s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/environment/path.dsv
+[1.109s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/local_setup.bash
+[1.109s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/local_setup.sh
+[1.109s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/local_setup.zsh
+[1.109s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/local_setup.dsv
+[1.109s] -- Installing: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/package.dsv
+[1.110s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/ament_index/resource_index/packages/hexapod_description
+[1.110s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/cmake/hexapod_descriptionConfig.cmake
+[1.110s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/cmake/hexapod_descriptionConfig-version.cmake
+[1.110s] -- Up-to-date: /home/tsmusr/ROS2Dev/hexapod_ws/install/hexapod_description/share/hexapod_description/package.xml
+[1.122s] Invoked command in '/home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_teleop:/home/tsmusr/ROS2Dev/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/tsmusr/ROS2Dev/hexapod_ws/build/hexapod_description

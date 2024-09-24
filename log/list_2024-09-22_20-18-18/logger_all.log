@@ -1,0 +1,56 @@
+[4.764s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tsmusr/ROS2Dev/hexapod_ws']
+[4.765s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/tsmusr/ROS2Dev/hexapod_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f96df10eda0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f96df29b2b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f96df29b2b0>>, mixin_verb=('list',))
+[4.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.902s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tsmusr/ROS2Dev/hexapod_ws'
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extensions ['ignore', 'ignore_ament_install']
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'ignore'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'ignore_ament_install'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extensions ['colcon_pkg']
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'colcon_pkg'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extensions ['colcon_meta']
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'colcon_meta'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extensions ['ros']
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'ros'
+[4.930s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extensions ['cmake', 'python']
+[4.930s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'cmake'
+[4.930s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'python'
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extensions ['python_setup_py']
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws) by extension 'python_setup_py'
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/build) by extension 'ignore'
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/build) ignored
+[4.931s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/install) by extension 'ignore'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/install) ignored
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/log) by extension 'ignore'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/log) ignored
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'ignore'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'ignore_ament_install'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extensions ['colcon_pkg']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'colcon_pkg'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extensions ['colcon_meta']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'colcon_meta'
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extensions ['ros']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'ros'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extensions ['cmake', 'python']
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'cmake'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'python'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extensions ['python_setup_py']
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src) by extension 'python_setup_py'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extensions ['ignore', 'ignore_ament_install']
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extension 'ignore'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extension 'ignore_ament_install'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extensions ['colcon_pkg']
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extension 'colcon_pkg'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extensions ['colcon_meta']
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extension 'colcon_meta'
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extensions ['ros']
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description) by extension 'ros'
+[4.938s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tsmusr/ROS2Dev/hexapod_ws/src/hexapodLegC_description' with type 'ros.ament_cmake' and name 'hexapodLegC_description'
+[4.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

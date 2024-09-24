@@ -1,0 +1,116 @@
+<robot name="hexapod">
+<link name="rudderdisk_v2">
+<visual>
+<origin xyz="-0.15317573365130504603 -0.11193619206621049922 -0.019356679277739430312" rpy="-1.5872114842802549362 -0.89053586130224704487 -2.1552371240855054957" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/rudderdisk_v2.stl"/>
+</geometry>
+<material name="rudderdisk_v2_material">
+<color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.15317573365130504603 -0.11193619206621049922 -0.019356679277739430312" rpy="-1.5872114842802549362 -0.89053586130224704487 -2.1552371240855054957" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/rudderdisk_v2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.12120374403148490017 -0.12158618686526964647 -0.013272456385923395855" rpy="-3.1293270961497565708 -0.57023093879213337942 0.96697227850757550005" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/yb-sd15m-bottom-cover-ld_v2.stl"/>
+</geometry>
+<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.12120374403148490017 -0.12158618686526964647 -0.013272456385923395855" rpy="-3.1293270961497565708 -0.57023093879213337942 0.96697227850757550005" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/yb-sd15m-bottom-cover-ld_v2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.15109155242024860377 -0.10815140793551589193 -0.029511759283932237352" rpy="-0.026439969236334747577 -1.1695809149137812444 -2.143657710082931267" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/tibia.stl"/>
+</geometry>
+<material name="tibia_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.15109155242024860377 -0.10815140793551589193 -0.029511759283932237352" rpy="-0.026439969236334747577 -1.1695809149137812444 -2.143657710082931267" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/tibia.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.14220618801525619634 -0.10730372999007789514 -0.013010211620776290439" rpy="-3.1293270961497570148 -0.57023093879213293533 0.96697227850757550005" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/yb-sd15m-top-cover-ld_v3.stl"/>
+</geometry>
+<material name="yb-sd15m-top-cover-ld_v3_material">
+<color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.14220618801525619634 -0.10730372999007789514 -0.013010211620776290439" rpy="-3.1293270961497570148 -0.57023093879213293533 0.96697227850757550005" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/yb-sd15m-top-cover-ld_v3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.12200733541998870502 -0.13314110511133278592 -0.019773106937246980042" rpy="-1.5595815648102053785 -0.40106714270888638163 0.96921537612944419493" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/auxrudderdisk_v2.stl"/>
+</geometry>
+<material name="auxrudderdisk_v2_material">
+<color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.12200733541998870502 -0.13314110511133278592 -0.019773106937246980042" rpy="-1.5595815648102053785 -0.40106714270888638163 0.96921537612944419493" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/auxrudderdisk_v2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.12475927588700511106 -0.11916829062261891092 -0.013228060618595225209" rpy="-3.1293270961497570148 -0.57023093879213293533 0.96697227850757550005" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/yb-sd15m-middle-cover-ld_v2.stl"/>
+</geometry>
+<material name="yb-sd15m-middle-cover-ld_v2_material">
+<color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.12475927588700511106 -0.11916829062261891092 -0.013228060618595225209" rpy="-3.1293270961497570148 -0.57023093879213293533 0.96697227850757550005" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/yb-sd15m-middle-cover-ld_v2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.039646101221812085624 -0.025524136892810647681 0.066301061402891159346" rpy="0.012265557440036486264 -0.57023093879213315738 0.96697227850757505596" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/femuraux.stl"/>
+</geometry>
+<material name="femuraux_material">
+<color rgba="0.97254901960784312376 0.52941176470588235947 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.039646101221812085624 -0.025524136892810647681 0.066301061402891159346" rpy="0.012265557440036486264 -0.57023093879213315738 0.96697227850757505596" />
+<geometry>
+<mesh filename="package://hexapodLegC_description/legC/femuraux.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+
+</robot>
