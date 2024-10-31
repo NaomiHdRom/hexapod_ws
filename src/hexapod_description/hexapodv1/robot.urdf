@@ -1,8 +1,7 @@
-<?xml version="1.0">
 <robot name="hexapod">
-<link name="part_1">
+<link name="tapa">
 <visual>
-<origin xyz="-0.64333293562015847478 -0.17968179694903010923 0.19298522678407353803" rpy="0.44527335703817527701 0.50753838831949804611 -0.34096526511918745506" />
+<origin xyz="-0.64333293562015814171 -0.17968179694903060883 0.19298522678407389885" rpy="0.44527335703816106616 0.50753838831949438237 -0.34096526511917835123" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/coxa.stl"/>
 </geometry>
@@ -11,7 +10,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.64333293562015847478 -0.17968179694903010923 0.19298522678407353803" rpy="0.44527335703817527701 0.50753838831949804611 -0.34096526511918745506" />
+<origin xyz="-0.64333293562015814171 -0.17968179694903060883 0.19298522678407389885" rpy="0.44527335703816106616 0.50753838831949438237 -0.34096526511917835123" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/coxa.stl"/>
 </geometry>
@@ -19,46 +18,46 @@
 <visual>
 <origin xyz="-0.22089040064456436085 -0.31855449737599694782 0.28960658819786494478" rpy="-1.4918853732317522987 0.57318057243829700909 -2.8932784545220653349" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.22089040064456436085 -0.31855449737599694782 0.28960658819786494478" rpy="-1.4918853732317522987 0.57318057243829700909 -2.8932784545220653349" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.39905797222665062574 -0.32023383865648574753 0.1745652060792428073" rpy="-2.719228448437147172 -0.40713159611816834849 -0.74499882977086739899" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.39905797222665062574 -0.32023383865648574753 0.1745652060792428073" rpy="-2.719228448437147172 -0.40713159611816834849 -0.74499882977086739899" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.58833705610940167929 -0.18100136515411641147 0.17026972750507463061" rpy="0.9665958943248371682 0.38591987117217863013 -2.1396822672569699719" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="bracket_material">
 <color rgba="0.29411764705882353921 0.44313725490196076429 0.16470588235294117418 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.58833705610940167929 -0.18100136515411641147 0.17026972750507463061" rpy="0.9665958943248371682 0.38591987117217863013 -2.1396822672569699719" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -79,65 +78,65 @@
 <visual>
 <origin xyz="-0.47272206719079540305 -0.13931826448891504455 -0.017733970494498055293" rpy="1.9788991072576571639 -0.32247589482647515124 -0.70506509083747537225" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.47272206719079540305 -0.13931826448891504455 -0.017733970494498055293" rpy="1.9788991072576571639 -0.32247589482647515124 -0.70506509083747537225" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.66191876454263043339 -0.020911761410091204982 0.32177541352306088251" rpy="1.1713638463393152289 0.57313207870853144499 -1.7502022652855355744" />
+<origin xyz="-0.66191876454263132157 -0.020911761410089869245 0.32177541352305838451" rpy="1.1713638463393125644 0.57313207870851468062 -1.7502022652855273588" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.66191876454263043339 -0.020911761410091204982 0.32177541352306088251" rpy="1.1713638463393152289 0.57313207870853144499 -1.7502022652855355744" />
+<origin xyz="-0.66191876454263132157 -0.020911761410089869245 0.32177541352305838451" rpy="1.1713638463393125644 0.57313207870851468062 -1.7502022652855273588" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.39120570329560339085 -0.28801748033665142135 0.18183132039926214185" rpy="-2.0448463141064228132 0.60135168878614153609 2.2901965303214373293" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.39120570329560339085 -0.28801748033665142135 0.18183132039926214185" rpy="-2.0448463141064228132 0.60135168878614153609 2.2901965303214373293" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.48691033368502223411 -0.15992154435153649317 -0.040680565903410882689" rpy="-1.3955061780671309535 1.1785453305185502604 1.1912784456983038783" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.48691033368502223411 -0.15992154435153649317 -0.040680565903410882689" rpy="-1.3955061780671309535 1.1785453305185502604 1.1912784456983038783" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.52540631598520171064 -0.216867550599221387 0.47269586835513655032" rpy="-3.1404066173506834936 -0.2484374749901492041 1.0020858362161151334" />
+<origin xyz="-0.52540631598488363174 -0.21686755059872486751 0.47269586835537685809" rpy="-3.1404066173506834936 -0.2484374749901492041 1.0020858362161151334" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
@@ -146,7 +145,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.52540631598520171064 -0.216867550599221387 0.47269586835513655032" rpy="-3.1404066173506834936 -0.2484374749901492041 1.0020858362161151334" />
+<origin xyz="-0.52540631598488363174 -0.21686755059872486751 0.47269586835537685809" rpy="-3.1404066173506834936 -0.2484374749901492041 1.0020858362161151334" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
@@ -154,226 +153,226 @@
 <visual>
 <origin xyz="-0.330191351997490945 -0.25543989903505126549 -0.023845430193160023491" rpy="-0.78072269118870729621 0.14783508312184800992 -2.404938032276851434" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.330191351997490945 -0.25543989903505126549 -0.023845430193160023491" rpy="-0.78072269118870729621 0.14783508312184800992 -2.404938032276851434" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.49155620252373188883 -0.16874237376899156593 -0.031903936510245763103" rpy="1.1695718092492928264 -0.26985850818375473059 2.6853277335428398231" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.49155620252373188883 -0.16874237376899156593 -0.031903936510245763103" rpy="1.1695718092492928264 -0.26985850818375473059 2.6853277335428398231" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.51691022762374083666 -0.24695352649105295484 0.21234609249125285801" rpy="-0.080601656871758534106 0.38591987117217557701 -2.1396822672569695278" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="bracket_material">
 <color rgba="0.29411764705882353921 0.44313725490196076429 0.16470588235294117418 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.51691022762374083666 -0.24695352649105295484 0.21234609249125285801" rpy="-0.080601656871758534106 0.38591987117217557701 -2.1396822672569695278" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.53212365184814680585 -0.277544158952205966 0.2472009600716517097" rpy="1.169571809248091121 -0.2698585081938985053 2.685327733547289597" />
+<origin xyz="-0.53212365184782928207 -0.27754415895170952977 0.24720096007189124032" rpy="1.169571809248091121 -0.2698585081938985053 2.685327733547289597" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.53212365184814680585 -0.277544158952205966 0.2472009600716517097" rpy="1.169571809248091121 -0.2698585081938985053 2.685327733547289597" />
+<origin xyz="-0.53212365184782928207 -0.27754415895170952977 0.24720096007189124032" rpy="1.169571809248091121 -0.2698585081938985053 2.685327733547289597" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.46268386824090435017 -0.14073151876837480811 -0.085727073835685160819" rpy="2.9663025048620257351 -1.1785453305185502604 -1.9503142078914974533" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.46268386824090435017 -0.14073151876837480811 -0.085727073835685160819" rpy="2.9663025048620257351 -1.1785453305185502604 -1.9503142078914974533" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.51695362312619907996 -0.21606394872941034335 0.46482382640833824761" rpy="-0.0025063449552455287044 1.0942813583369523922 -2.1414423193619191998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.51695362312619907996 -0.21606394872941034335 0.46482382640833824761" rpy="-0.0025063449552455287044 1.0942813583369523922 -2.1414423193619191998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.53159546061573914599 -0.2767106477715612356 0.26044658672791265452" rpy="-1.5738504801617347884 -1.1848745606923811735 -2.1363856558227438676" />
+<origin xyz="-0.53159546061542162221 -0.27671064777106479937 0.26044658672815224065" rpy="-1.5738504801617347884 -1.1848745606923811735 -2.1363856558227438676" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.53159546061573914599 -0.2767106477715612356 0.26044658672791265452" rpy="-1.5738504801617347884 -1.1848745606923811735 -2.1363856558227438676" />
+<origin xyz="-0.53159546061542162221 -0.27671064777106479937 0.26044658672815224065" rpy="-1.5738504801617347884 -1.1848745606923811735 -2.1363856558227438676" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.39342268617321923818 0.022763173589893014037 -0.090262789938310217241" rpy="-1.6803461126946896975 0.91503987217637072771 -2.1994897254914720364" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.39342268617321923818 0.022763173589893014037 -0.090262789938310217241" rpy="-1.6803461126946896975 0.91503987217637072771 -2.1994897254914720364" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.3370262251541566445 -0.2565134016420116958 -0.012507332757150596905" rpy="-2.0625928396665274001 -0.64827436699030782652 2.8855457781327071842" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.3370262251541566445 -0.2565134016420116958 -0.012507332757150596905" rpy="-2.0625928396665274001 -0.64827436699030782652 2.8855457781327071842" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.41703277213996492456 -0.23675127751479413396 0.058799733566097404924" rpy="-2.1749967592649572801 0.38591987117217607661 -2.1396822672569699719" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="bracket_material">
 <color rgba="0.29411764705882353921 0.44313725490196076429 0.16470588235294117418 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.41703277213996492456 -0.23675127751479413396 0.058799733566097404924" rpy="-2.1749967592649572801 0.38591987117217607661 -2.1396822672569699719" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.38638148639916769511 -0.30040817831630589607 0.18412605850679575337" rpy="-2.719228448437147172 -0.40713159611816868155 -0.74499882977086773206" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.38638148639916769511 -0.30040817831630589607 0.18412605850679575337" rpy="-2.719228448437147172 -0.40713159611816868155 -0.74499882977086773206" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.66661437028989989351 -0.07068503035773947285 0.038816320551693803131" rpy="-2.6103870850375070489 0.22263536810209058614 -1.8158791018137727669" />
+<origin xyz="-0.66661437028990877529 -0.070685030357750838759 0.038816320551685164209" rpy="-2.6103870850375083812 0.22263536810208733874 -1.815879101813773655" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.66661437028989989351 -0.07068503035773947285 0.038816320551693803131" rpy="-2.6103870850375070489 0.22263536810209058614 -1.8158791018137727669" />
+<origin xyz="-0.66661437028990877529 -0.070685030357750838759 0.038816320551685164209" rpy="-2.6103870850375083812 0.22263536810208733874 -1.815879101813773655" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.48696617822567933587 -0.18429038946680040278 0.12638896737795723979" rpy="-2.3829634147270715161 0.99181969789920387814 0.10179847547152914844" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tapa.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="tapa_material">
 <color rgba="0.71764705882352941568 0.71764705882352941568 0.71764705882352941568 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.48696617822567933587 -0.18429038946680040278 0.12638896737795723979" rpy="-2.3829634147270715161 0.99181969789920387814 0.10179847547152914844" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tapa.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.31529512998619402264 -0.27772478647551690489 0.0026645143391963582724" rpy="2.4317083894761015728 0.38591987117216319803 -2.1396822672569908441" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.31529512998619402264 -0.27772478647551690489 0.0026645143391963582724" rpy="2.4317083894761015728 0.38591987117216319803 -2.1396822672569908441" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.64632212529706123405 -0.068354712851760340842 0.0071290169266647659269" rpy="0.43308791835761495381 0.38591987117217513292 -2.1396822672569695278" />
+<origin xyz="-0.64632212529707133708 -0.068354712851770804694 0.0071290169266577585114" rpy="0.43308791835761450972 0.3859198711721730235 -2.1396822672569708601" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.64632212529706123405 -0.068354712851760340842 0.0071290169266647659269" rpy="0.43308791835761495381 0.38591987117217513292 -2.1396822672569695278" />
+<origin xyz="-0.64632212529707133708 -0.068354712851770804694 0.0071290169266577585114" rpy="0.43308791835761450972 0.3859198711721730235 -2.1396822672569708601" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -394,16 +393,16 @@
 <visual>
 <origin xyz="-0.37096219817993264511 -0.35488864021816080019 0.21498314073030028171" rpy="-1.6497072803580556943 -0.57318057243829867442 0.24831419906772880801" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
-<material name="tibiamot_material">
+<material name="tibia_material">
 <color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.37096219817993264511 -0.35488864021816080019 0.21498314073030028171" rpy="-1.6497072803580556943 -0.57318057243829867442 0.24831419906772880801" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -424,125 +423,125 @@
 <visual>
 <origin xyz="-0.36651997076228176597 -0.34541333441509391999 0.21050457224973734283" rpy="-1.9931605319475418359 0.40713159611816351902 2.3965938238189292697" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.36651997076228176597 -0.34541333441509391999 0.21050457224973734283" rpy="-1.9931605319475418359 0.40713159611816351902 2.3965938238189292697" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.39085287524881462407 0.0073318686320095619383 -0.091222608407044589174" rpy="3.0748567024882222931 0.025091307606311303441 -2.1142096253999049793" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.39085287524881462407 0.0073318686320095619383 -0.091222608407044589174" rpy="3.0748567024882222931 0.025091307606311303441 -2.1142096253999049793" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.61379405591248958896 -0.12916255818113511755 0.047551742790448790765" rpy="-1.1723901885995471339 0.24450080198406010101 -0.46734446304453686194" />
+<origin xyz="-0.61379405591249758256 -0.12916255818114596998 0.047551742790443371489" rpy="-1.1723901885995471339 0.24450080198406010101 -0.46734446304453686194" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.61379405591248958896 -0.12916255818113511755 0.047551742790448790765" rpy="-1.1723901885995471339 0.24450080198406010101 -0.46734446304453686194" />
+<origin xyz="-0.61379405591249758256 -0.12916255818114596998 0.047551742790443371489" rpy="-1.1723901885995471339 0.24450080198406010101 -0.46734446304453686194" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.62814193340701174328 -0.15570997135308173309 0.20500484996567555629" rpy="-0.45260953833503098087 -0.5340835769650620346 2.8153694997594427285" />
+<origin xyz="-0.62814193340701185431 -0.15570997135308184411 0.20500484996567552853" rpy="-0.45260953833501643695 -0.53408357696505859291 2.8153694997594511662" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.62814193340701174328 -0.15570997135308173309 0.20500484996567555629" rpy="-0.45260953833503098087 -0.5340835769650620346 2.8153694997594427285" />
+<origin xyz="-0.62814193340701185431 -0.15570997135308184411 0.20500484996567552853" rpy="-0.45260953833501643695 -0.53408357696505859291 2.8153694997594511662" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.51891897478825643741 -0.25688498743138127312 0.27000743915546593366" rpy="-1.5738504801617561046 -1.1848745606923809515 -2.1363856558227447557" />
+<origin xyz="-0.51891897478793891363 -0.2568849874308848924 0.27000743915570546427" rpy="-1.5738504801617561046 -1.1848745606923809515 -2.1363856558227447557" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.51891897478825643741 -0.25688498743138127312 0.27000743915546593366" rpy="-1.5738504801617561046 -1.1848745606923809515 -2.1363856558227447557" />
+<origin xyz="-0.51891897478793891363 -0.2568849874308848924 0.27000743915570546427" rpy="-1.5738504801617561046 -1.1848745606923809515 -2.1363856558227447557" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.16801490147085423876 -0.18985952153268678688 0.0033207487554985787304" rpy="-2.6454421211752956467 0.64516904693831267359 -0.24882119556335699495" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.16801490147085423876 -0.18985952153268678688 0.0033207487554985787304" rpy="-2.6454421211752956467 0.64516904693831267359 -0.24882119556335699495" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.36197951220839841291 -0.35316991466972885716 0.22056876555784263316" rpy="-2.6999643870191638584 0.38591987117216647318 -2.1396822672569824064" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.36197951220839841291 -0.35316991466972885716 0.22056876555784263316" rpy="-2.6999643870191638584 0.38591987117216647318 -2.1396822672569824064" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.37535738913362293179 -0.25741753950359802516 0.024745750010689359505" rpy="-2.6497961407181613858 0.6482743669903077155 -0.25604687545710291818" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.37535738913362293179 -0.25741753950359802516 0.024745750010689359505" rpy="-2.6497961407181613858 0.6482743669903077155 -0.25604687545710291818" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.66001381162443761852 0.094405508622565623145 0.0020071588776710861876" rpy="1.1389307650050011222 -0.38730593214221598064 0.99866852433412744983" />
+<origin xyz="-0.66001381162443728545 0.094405508622554645815 0.0020071588776710033546" rpy="1.1389307650050222165 -0.38730593214223640874 0.99866852433407138356" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
@@ -551,13 +550,13 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.66001381162443761852 0.094405508622565623145 0.0020071588776710861876" rpy="1.1389307650050011222 -0.38730593214221598064 0.99866852433412744983" />
+<origin xyz="-0.66001381162443728545 0.094405508622554645815 0.0020071588776710033546" rpy="1.1389307650050222165 -0.38730593214223640874 0.99866852433407138356" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.68100248228654924887 -0.15077210846142402589 0.25118070225057254063" rpy="-1.9702288072504730021 0.5731320787085260049 -1.7502022652855504514" />
+<origin xyz="-0.68100248228654935989 -0.15077210846142402589 0.25118070225057226308" rpy="-1.9702288072504754446 0.57313207870850912951 -1.7502022652855420137" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/femuraux.stl"/>
 </geometry>
@@ -566,7 +565,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.68100248228654924887 -0.15077210846142402589 0.25118070225057254063" rpy="-1.9702288072504730021 0.5731320787085260049 -1.7502022652855504514" />
+<origin xyz="-0.68100248228654935989 -0.15077210846142402589 0.25118070225057226308" rpy="-1.9702288072504754446 0.57313207870850912951 -1.7502022652855420137" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/femuraux.stl"/>
 </geometry>
@@ -574,61 +573,61 @@
 <visual>
 <origin xyz="-0.45553015925772877281 -0.1398063526692280012 -0.097130441914549434101" rpy="-1.4059192908141031619 1.1525352780301043598 1.1799485240448113199" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.45553015925772877281 -0.1398063526692280012 -0.097130441914549434101" rpy="-1.4059192908141031619 1.1525352780301043598 1.1799485240448113199" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.51940399701287665035 -0.2080334846151701278 0.47538676170033644652" rpy="1.5719475958156994277 -0.053491650083526645632 1.0023159165067543341" />
+<origin xyz="-0.5194039970125587935 -0.20803348461467396913 0.47538676170057619919" rpy="1.5719475958156994277 -0.053491650083526645632 1.0023159165067543341" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.51940399701287665035 -0.2080334846151701278 0.47538676170033644652" rpy="1.5719475958156994277 -0.053491650083526645632 1.0023159165067543341" />
+<origin xyz="-0.5194039970125587935 -0.20803348461467396913 0.47538676170057619919" rpy="1.5719475958156994277 -0.053491650083526645632 1.0023159165067543341" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.48845464190888410183 -0.17068603504042423324 0.016764054396676466435" rpy="3.0609909967180350954 0.38591987117217341208 -2.1396822672569526524" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="bracket_material">
 <color rgba="0.29411764705882353921 0.44313725490196076429 0.16470588235294117418 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.48845464190888410183 -0.17068603504042423324 0.016764054396676466435" rpy="3.0609909967180350954 0.38591987117217341208 -2.1396822672569526524" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.23235638300339098161 -0.31974573826422841849 0.30727922789014899818" rpy="-1.4918853732317522987 0.57318057243829700909 -2.8932784545220653349" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.23235638300339098161 -0.31974573826422841849 0.30727922789014899818" rpy="-1.4918853732317522987 0.57318057243829700909 -2.8932784545220653349" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -647,37 +646,37 @@
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.67493212234630928226 0.10063646400846432138 0.038115844718773980726" rpy="2.9199470067693895636 -0.53158588316314736577 0.53271612426648751182" />
+<origin xyz="-0.67493212234630861612 0.10063646400845308038 0.038115844718774112565" rpy="2.9199470067694202058 -0.53158588316315680267 0.53271612426642456217" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.67493212234630928226 0.10063646400846432138 0.038115844718773980726" rpy="2.9199470067693895636 -0.53158588316314736577 0.53271612426648751182" />
+<origin xyz="-0.67493212234630861612 0.10063646400845308038 0.038115844718774112565" rpy="2.9199470067694202058 -0.53158588316315680267 0.53271612426642456217" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.18289343758705023379 -0.1675557931455485261 -0.023183282270451532198" rpy="0.49978468996236358191 -0.64253661554693308755 1.4208768702289422681" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.18289343758705023379 -0.1675557931455485261 -0.023183282270451532198" rpy="0.49978468996236358191 -0.64253661554693308755 1.4208768702289422681" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.62122606605233643418 -0.12157696469798418004 0.042959969333594548446" rpy="0.42617650399951878537 -0.42620062295494876015 -0.75441807765529034224" />
+<origin xyz="-0.62122606605234487187 -0.12157696469799612882 0.042959969333588129969" rpy="0.42617650399951872986 -0.42620062295494615112 -0.75441807765529389496" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/coxa.stl"/>
 </geometry>
@@ -686,7 +685,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.62122606605233643418 -0.12157696469798418004 0.042959969333594548446" rpy="0.42617650399951878537 -0.42620062295494876015 -0.75441807765529034224" />
+<origin xyz="-0.62122606605234487187 -0.12157696469799612882 0.042959969333588129969" rpy="0.42617650399951872986 -0.42620062295494615112 -0.75441807765529389496" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/coxa.stl"/>
 </geometry>
@@ -709,76 +708,76 @@
 <visual>
 <origin xyz="-0.36120271276645476988 0.0033482662508916441815 -0.092757881968294583763" rpy="0.32439505744945085208 -1.5004044258716215943 -0.86688139411558140512" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.36120271276645476988 0.0033482662508916441815 -0.092757881968294583763" rpy="0.32439505744945085208 -1.5004044258716215943 -0.86688139411558140512" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.47423384785753996962 -0.14009588401135669722 -0.031119713475857489066" rpy="-1.3955061780671318417 1.1785453305185538131 1.19127844569828234" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.47423384785753996962 -0.14009588401135669722 -0.031119713475857489066" rpy="-1.3955061780671318417 1.1785453305185538131 1.19127844569828234" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.64495250899662359689 -0.0789791913616830904 0.0068674589678785003324" rpy="0.99954752151462455956 -0.027121135866649083435 1.6430250182124757075" />
+<origin xyz="-0.64495250899663136845 -0.078979191361694553453 0.006867458967872706356" rpy="0.99954752151462589183 -0.027121135866679052517 1.643025018212428856" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
-<material name="tibiamot_material">
+<material name="tibia_material">
 <color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.64495250899662359689 -0.0789791913616830904 0.0068674589678785003324" rpy="0.99954752151462455956 -0.027121135866649083435 1.6430250182124757075" />
+<origin xyz="-0.64495250899663136845 -0.078979191361694553453 0.006867458967872706356" rpy="0.99954752151462589183 -0.027121135866679052517 1.643025018212428856" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.48476431443076362093 -0.15656523177426215354 -0.039061996397958667626" rpy="-1.3955061780671322857 1.1785453305185520367 1.1912784456982816739" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.48476431443076362093 -0.15656523177426215354 -0.039061996397958667626" rpy="-1.3955061780671322857 1.1785453305185520367 1.1912784456982816739" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.35505398840345470113 -0.34422209352686267136 0.19283193255745403882" rpy="-1.9931605319475342863 0.40713159611816307493 2.3965938238189292697" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.35505398840345470113 -0.34422209352686267136 0.19283193255745403882" rpy="-1.9931605319475342863 0.40713159611816307493 2.3965938238189292697" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -812,7 +811,7 @@
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.53449501430856161122 -0.28065908154196206326 0.25808830520398950981" rpy="1.5014511648704418345 1.1838974177304277813 0.92705025945676666765" />
+<origin xyz="-0.53449501430824408743 -0.28065908154146568254 0.25808830520422904042" rpy="1.5014511648704418345 1.1838974177304277813 0.92705025945676666765" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/coxa.stl"/>
 </geometry>
@@ -821,7 +820,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.53449501430856161122 -0.28065908154196206326 0.25808830520398950981" rpy="1.5014511648704418345 1.1838974177304277813 0.92705025945676666765" />
+<origin xyz="-0.53449501430824408743 -0.28065908154146568254 0.25808830520422904042" rpy="1.5014511648704418345 1.1838974177304277813 0.92705025945676666765" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/coxa.stl"/>
 </geometry>
@@ -829,181 +828,181 @@
 <visual>
 <origin xyz="-0.21855373125390281652 -0.31831173264521955835 0.28600505499043282764" rpy="-1.4918853732317511884 0.57318057243829800829 -2.8932784545220826544" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.21855373125390281652 -0.31831173264521955835 0.28600505499043282764" rpy="-1.4918853732317511884 0.57318057243829800829 -2.8932784545220826544" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.61892689295690483942 -0.11715384207648857351 0.045129951350875711913" rpy="-0.42087317179715738602 0.3993391356814402493 2.4003936064386679483" />
+<origin xyz="-0.618926892956912722 -0.11715384207649950921 0.045129951350870257942" rpy="-0.42087317179715716398 0.39933913568144047135 2.4003936064386683924" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.61892689295690483942 -0.11715384207648857351 0.045129951350875711913" rpy="-0.42087317179715738602 0.3993391356814402493 2.4003936064386679483" />
+<origin xyz="-0.618926892956912722 -0.11715384207649950921 0.045129951350870257942" rpy="-0.42087317179715716398 0.39933913568144047135 2.4003936064386683924" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.39452898185309548396 0.0095441221197797264375 -0.090935947039206266318" rpy="3.0748567024882240695 0.025091307606297172383 -2.1142096253999040911" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.39452898185309548396 0.0095441221197797264375 -0.090935947039206266318" rpy="3.0748567024882240695 0.025091307606297172383 -2.1142096253999040911" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.32698539376507484988 -0.27154036439832912597 0.005340134719672251333" rpy="-2.0625928396665291764 -0.64827436699031293355 2.885545778132696082" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.32698539376507484988 -0.27154036439832912597 0.005340134719672251333" rpy="-2.0625928396665291764 -0.64827436699031293355 2.885545778132696082" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.68212539846068143135 -0.14556951951638258391 0.21494097614763962856" rpy="2.0234058651299187126 0.53408357696506858492 -0.32622315383035116465" />
+<origin xyz="-0.68212539846068165339 -0.14556951951638344434 0.21494097614763948978" rpy="2.0234058651299040577 0.5340835769650650322 -0.32622315383034250491" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.68212539846068143135 -0.14556951951638258391 0.21494097614763962856" rpy="2.0234058651299187126 0.53408357696506858492 -0.32622315383035116465" />
+<origin xyz="-0.68212539846068165339 -0.14556951951638344434 0.21494097614763948978" rpy="2.0234058651299040577 0.5340835769650650322 -0.32622315383034250491" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.37079313790675982876 -0.23355464901245298615 0.042269686674998967202" rpy="-1.9658796209460773774 0.21022400324567189211 2.4859042432796547573" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.37079313790675982876 -0.23355464901245298615 0.042269686674998967202" rpy="-1.9658796209460773774 0.21022400324567189211 2.4859042432796547573" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.37281430563245820942 -0.0035236077847217855963 -0.092629249072482253147" rpy="3.074856702488221849 0.025091307606311303441 -2.1142096253999049793" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.37281430563245820942 -0.0035236077847217855963 -0.092629249072482253147" rpy="3.074856702488221849 0.025091307606311303441 -2.1142096253999049793" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.65303373918277751731 -0.07744269116420375576 0.034872866286670356484" rpy="1.9916694985920435634 -0.39933913568144085993 -0.74119904715112405746" />
+<origin xyz="-0.65303373918278684318 -0.07744269116421530208 0.034872866286662210222" rpy="1.9916694985920417871 -0.39933913568143830641 -0.74119904715112605587" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.65303373918277751731 -0.07744269116420375576 0.034872866286670356484" rpy="1.9916694985920435634 -0.39933913568144085993 -0.74119904715112405746" />
+<origin xyz="-0.65303373918278684318 -0.07744269116421530208 0.034872866286662210222" rpy="1.9916694985920417871 -0.39933913568143830641 -0.74119904715112605587" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.6572301693518565191 0.090706173162435385637 0.011482584755360413648" rpy="2.1420451320751690005 0.027121135866650450397 -1.4985676353773165204" />
+<origin xyz="-0.6572301693518565191 0.090706173162424352796 0.011482584755359716289" rpy="2.1420451320751676683 0.027121135866680419479 -1.4985676353773633718" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.6572301693518565191 0.090706173162435385637 0.011482584755360413648" rpy="2.1420451320751690005 0.027121135866650450397 -1.4985676353773165204" />
+<origin xyz="-0.6572301693518565191 0.090706173162424352796 0.011482584755359716289" rpy="2.1420451320751676683 0.027121135866680419479 -1.4985676353773633718" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.19062425463718285501 -0.17738988886308715287 -0.018717257019853491412" rpy="-2.3621400632147846466 -0.025801661912482044825 -2.578026090121081193" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.19062425463718285501 -0.17738988886308715287 -0.018717257019853491412" rpy="-2.3621400632147846466 -0.025801661912482044825 -2.578026090121081193" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.55912200487770402635 -0.28175903202928359592 0.31359173036322679495" rpy="-3.1390863086345484056 -1.0942813583369526143 1.0001503342278785791" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
-<material name="tibiamot_material">
+<material name="tibia_material">
 <color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.55912200487770402635 -0.28175903202928359592 0.31359173036322679495" rpy="-3.1390863086345484056 -1.0942813583369526143 1.0001503342278785791" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.36482692256039872536 -0.24094819174069254109 0.032688032932790274387" rpy="-2.6497961407181604976 0.6482743669903077155 -0.25604687545710291818" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.36482692256039872536 -0.24094819174069254109 0.032688032932790274387" rpy="-2.6497961407181604976 0.6482743669903077155 -0.25604687545710291818" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -1024,121 +1023,121 @@
 <visual>
 <origin xyz="-0.39691195297239173501 -0.31687752607921115811 0.17618377558469461297" rpy="-2.7192284484371476161 -0.40713159611816868155 -0.74499882977086773206" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.39691195297239173501 -0.31687752607921115811 0.17618377558469461297" rpy="-2.7192284484371476161 -0.40713159611816868155 -0.74499882977086773206" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.6546462930646539391 0.10294508278833632009 0.0064228453776344861248" rpy="-0.21801579390119485424 0.5329629524716815725 2.8448193413250475459" />
+<origin xyz="-0.6546462930646529399 0.10294508278832527337 0.0064228453776347532722" rpy="-0.2180157939011916346 0.5329629524716805733 2.84481934132504799" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.6546462930646539391 0.10294508278833632009 0.0064228453776344861248" rpy="-0.21801579390119485424 0.5329629524716815725 2.8448193413250475459" />
+<origin xyz="-0.6546462930646529399 0.10294508278832527337 0.0064228453776347532722" rpy="-0.2180157939011916346 0.5329629524716805733 2.84481934132504799" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.49554770705294276523 -0.22973676498654393985 0.46479462600791465743" rpy="-0.0025063449552533054697 1.094281358336966381 -2.1414423193619191998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.49554770705294276523 -0.22973676498654393985 0.46479462600791465743" rpy="-0.0025063449552533054697 1.094281358336966381 -2.1414423193619191998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.226159915224958874 -0.31765417265967627047 0.31908166104868679325" rpy="-2.5669910887603890615 -0.066279165295250005996 -1.3653388828076591377" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.226159915224958874 -0.31765417265967627047 0.31908166104868679325" rpy="-2.5669910887603890615 -0.066279165295250005996 -1.3653388828076591377" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.43136984945488426879 -0.27494974488521850553 0.15657977962465280397" rpy="-1.1277992080683547638 0.38591987117216403069 -2.1396822672569806301" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="bracket_material">
 <color rgba="0.29411764705882353921 0.44313725490196076429 0.16470588235294117418 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.43136984945488426879 -0.27494974488521850553 0.15657977962465280397" rpy="-1.1277992080683547638 0.38591987117216403069 -2.1396822672569806301" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.55646658271789295469 -0.27817987323237580721 0.32333691545261683542" rpy="-1.5719595978499194544 0.15333674399657418186 -2.1393928572503977392" />
+<origin xyz="-0.55646658271757543091 -0.27817987323187948201 0.32333691545285642155" rpy="-1.5719595978499194544 0.15333674399657418186 -2.1393928572503977392" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.55646658271789295469 -0.27817987323237580721 0.32333691545261683542" rpy="-1.5719595978499194544 0.15333674399657418186 -2.1393928572503977392" />
+<origin xyz="-0.55646658271757543091 -0.27817987323187948201 0.32333691545285642155" rpy="-1.5719595978499194544 0.15333674399657418186 -2.1393928572503977392" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.6948905975656511913 -0.14736438440027396779 0.20982490825613225871" rpy="1.9702288072504883232 -0.57313207870852467263 1.3913903883042442189" />
+<origin xyz="-0.69489059756565141335 -0.14736438440027480046 0.2098249082561319534" rpy="1.9702288072504909877 -0.57313207870850790826 1.3913903883042526566" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
-<material name="tibiamot_material">
+<material name="tibia_material">
 <color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.6948905975656511913 -0.14736438440027396779 0.20982490825613225871" rpy="1.9702288072504883232 -0.57313207870852467263 1.3913903883042442189" />
+<origin xyz="-0.69489059756565141335 -0.14736438440027480046 0.2098249082561319534" rpy="1.9702288072504909877 -0.57313207870850790826 1.3913903883042526566" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.65534553519428340174 -0.077708309119895679906 0.038488809635618834171" rpy="1.9916694985920484484 -0.3993391356814352533 -0.7411990471511337164" />
+<origin xyz="-0.6553455351942921725 -0.077708309119907018059 0.038488809635610292392" rpy="1.9916694985920420091 -0.3993391356814382509 -0.74119904715112605587" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.65534553519428340174 -0.077708309119895679906 0.038488809635618834171" rpy="1.9916694985920484484 -0.3993391356814352533 -0.7411990471511337164" />
+<origin xyz="-0.6553455351942921725 -0.077708309119907018059 0.038488809635610292392" rpy="1.9916694985920420091 -0.3993391356814382509 -0.74119904715112605587" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -1157,97 +1156,97 @@
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.6694712469002157551 0.006747251547143798267 0.30360160543177339143" rpy="0.62201766800786417733 0.30959066977879728944 0.080228117680188698602" />
+<origin xyz="-0.66947124690021708737 0.0067472515471444756766 0.30360160543177083792" rpy="0.62201766800784819011 0.30959066977880400628 0.080228117680193763994" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.6694712469002157551 0.006747251547143798267 0.30360160543177339143" rpy="0.62201766800786417733 0.30959066977879728944 0.080228117680188698602" />
+<origin xyz="-0.66947124690021708737 0.0067472515471444756766 0.30360160543177083792" rpy="0.62201766800784819011 0.30959066977880400628 0.080228117680193763994" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.61678087370264544909 -0.11379752949921417837 0.046748520856329106588" rpy="-0.42087317179715932891 0.39933913568144679962 2.4003936064386657279" />
+<origin xyz="-0.61678087370265388678 -0.11379752949922498917 0.046748520856322153816" rpy="-0.42087317179715932891 0.39933913568144679962 2.4003936064386657279" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.61678087370264544909 -0.11379752949921417837 0.046748520856329106588" rpy="-0.42087317179715932891 0.39933913568144679962 2.4003936064386657279" />
+<origin xyz="-0.61678087370265388678 -0.11379752949922498917 0.046748520856322153816" rpy="-0.42087317179715932891 0.39933913568144679962 2.4003936064386657279" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.46078594363721409044 -0.14915301351029180976 -0.096898951438371072609" rpy="0.066735951101571405752 -0.025091307606311320788 1.0273830281898885808" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
-<material name="tibiamot_material">
+<material name="tibia_material">
 <color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.46078594363721409044 -0.14915301351029180976 -0.096898951438371072609" rpy="0.066735951101571405752 -0.025091307606311320788 1.0273830281898885808" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.3527173190127939062 -0.34397932879608505985 0.18923039935002144984" rpy="-1.9931605319475411697 0.40713159611816812644 2.3965938238189412601" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.3527173190127939062 -0.34397932879608505985 0.18923039935002144984" rpy="-1.9931605319475411697 0.40713159611816812644 2.3965938238189412601" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.48776659068930161567 -0.12041770939121090866 -0.094643717573563379553" rpy="1.6380357493180581763 -0.12489299146989911449 1.0206714662715010711" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.48776659068930161567 -0.12041770939121090866 -0.094643717573563379553" rpy="1.6380357493180581763 -0.12489299146989911449 1.0206714662715010711" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.51332862905381748675 -0.24811448384758727492 0.26141124293125522771" rpy="1.9636203071667752695 0.18293397046049666987 -0.49364978725807762139" />
+<origin xyz="-0.51332862905350007399 -0.24811448384709075543 0.26141124293149470281" rpy="1.9636203071667752695 0.18293397046049666987 -0.49364978725807762139" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.51332862905381748675 -0.24811448384758727492 0.26141124293125522771" rpy="1.9636203071667752695 0.18293397046049666987 -0.49364978725807762139" />
+<origin xyz="-0.51332862905350007399 -0.24811448384709075543 0.26141124293149470281" rpy="1.9636203071667752695 0.18293397046049666987 -0.49364978725807762139" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.66740734941680102121 -0.059725401364365618417 0.039114408259814659186" rpy="-0.99954752151462589183 0.027121135866650172841 -1.4985676353773160763" />
+<origin xyz="-0.66740734941680768255 -0.059725401364376977387 0.039114408259809559099" rpy="-0.99954752151462722409 0.027121135866680138454 -1.4985676353773629277" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/femuraux.stl"/>
 </geometry>
@@ -1256,73 +1255,73 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.66740734941680102121 -0.059725401364365618417 0.039114408259814659186" rpy="-0.99954752151462589183 0.027121135866650172841 -1.4985676353773160763" />
+<origin xyz="-0.66740734941680768255 -0.059725401364376977387 0.039114408259809559099" rpy="-0.99954752151462722409 0.027121135866680138454 -1.4985676353773629277" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/femuraux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.52944944136148008873 -0.27335433519428659066 0.26206515623336457121" rpy="-1.5738504801617536621 -1.1848745606923807294 -2.1363856558227451998" />
+<origin xyz="-0.52944944136116256495 -0.27335433519379020995 0.26206515623360404632" rpy="-1.5738504801617536621 -1.1848745606923807294 -2.1363856558227451998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.52944944136148008873 -0.27335433519428659066 0.26206515623336457121" rpy="-1.5738504801617536621 -1.1848745606923807294 -2.1363856558227451998" />
+<origin xyz="-0.52944944136116256495 -0.27335433519379020995 0.26206515623360404632" rpy="-1.5738504801617536621 -1.1848745606923807294 -2.1363856558227451998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.63405490355093585553 -0.18343380600076478193 0.18717997608426223399" rpy="1.1695718092480920092 -0.2698585081939025021 2.6853277335472931497" />
+<origin xyz="-0.63405490355093574451 -0.18343380600076514275 0.18717997608426259482" rpy="1.1695718092481042216 -0.26985850819389739508 2.6853277335473055842" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.63405490355093585553 -0.18343380600076478193 0.18717997608426223399" rpy="1.1695718092480920092 -0.2698585081939025021 2.6853277335472931497" />
+<origin xyz="-0.63405490355093574451 -0.18343380600076514275 0.18717997608426259482" rpy="1.1695718092481042216 -0.26985850819389739508 2.6853277335473055842" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.60625040712942313004 -0.097328181736308125305 0.054690803778428789816" rpy="-0.42087317179715866278 0.39933913568144679962 2.4003936064386657279" />
+<origin xyz="-0.60625040712943034649 -0.097328181736319380191 0.054690803778423474624" rpy="-0.42087317179715866278 0.39933913568144679962 2.4003936064386657279" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.60625040712942313004 -0.097328181736308125305 0.054690803778428789816" rpy="-0.42087317179715866278 0.39933913568144679962 2.4003936064386657279" />
+<origin xyz="-0.60625040712943034649 -0.097328181736319380191 0.054690803778423474624" rpy="-0.42087317179715866278 0.39933913568144679962 2.4003936064386657279" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.20565229758254094383 -0.31553972693973403318 0.28751811347426897703" rpy="-0.55495835976799812173 -0.17072652976856309004 1.4068333159599910598" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.20565229758254094383 -0.31553972693973403318 0.28751811347426897703" rpy="-0.55495835976799812173 -0.17072652976856309004 1.4068333159599910598" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.67623836062904763011 -0.0011686299651993564425 0.30004340014019365013" rpy="2.1935487046955186585 -0.30793793387333290301 0.8814596151012484837" />
+<origin xyz="-0.67623836062904851829 -0.0011686299651987670702 0.30004340014019115213" rpy="2.1935487046955119972 -0.30793793387331713785 0.88145961510126036309" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
@@ -1331,7 +1330,7 @@
 </material>
 </visual>
 <collision>
-<origin xyz="-0.67623836062904763011 -0.0011686299651993564425 0.30004340014019365013" rpy="2.1935487046955186585 -0.30793793387333290301 0.8814596151012484837" />
+<origin xyz="-0.67623836062904851829 -0.0011686299651987670702 0.30004340014019115213" rpy="2.1935487046955119972 -0.30793793387331713785 0.88145961510126036309" />
 <geometry>
 <mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
@@ -1339,301 +1338,301 @@
 <visual>
 <origin xyz="-0.49917154323857293452 -0.22742207562017915934 0.46479956938278932377" rpy="-0.0025063449552454779637 1.0942813583369523922 -2.1414423193619191998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.49917154323857293452 -0.22742207562017915934 0.46479956938278932377" rpy="-0.0025063449552454779637 1.0942813583369523922 -2.1414423193619191998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.64168980991701529693 -0.076139310032789314642 0.017129516365091204677" rpy="1.991669498592051113 -0.39933913568144052686 -0.74119904715112594484" />
+<origin xyz="-0.64168980991702384564 -0.076139310032799750738 0.017129516365082274321" rpy="1.9916694985920493366 -0.39933913568143797335 -0.74119904715112783222" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.64168980991701529693 -0.076139310032789314642 0.017129516365091204677" rpy="1.991669498592051113 -0.39933913568144052686 -0.74119904715112594484" />
+<origin xyz="-0.64168980991702384564 -0.076139310032799750738 0.017129516365082274321" rpy="1.9916694985920493366 -0.39933913568143797335 -0.74119904715112783222" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.67467034282928328714 -0.15981785962088027042 0.23460228205033378801" rpy="2.0234058651299222653 0.5340835769650674747 -0.3262231538303489442" />
+<origin xyz="-0.6746703428292830651 -0.15981785962088068676 0.23460228205033389903" rpy="2.0234058651299076104 0.534083576965064033 -0.32622315383034033998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.67467034282928328714 -0.15981785962088027042 0.23460228205033378801" rpy="2.0234058651299222653 0.5340835769650674747 -0.3262231538303489442" />
+<origin xyz="-0.6746703428292830651 -0.15981785962088068676 0.23460228205033389903" rpy="2.0234058651299076104 0.534083576965064033 -0.32622315383034033998" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.32440791404254876173 -0.28330359113565006801 0.0035210749891746500814" rpy="-0.7794525903750108009 0.025801661912472118737 0.5635665634687214709" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
-<material name="tibiamot_material">
+<material name="tibia_material">
 <color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.32440791404254876173 -0.28330359113565006801 0.0035210749891746500814" rpy="-0.7794525903750108009 0.025801661912472118737 0.5635665634687214709" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/tibiamot.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/tibia.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.38963192793127932045 -0.26296555926646597579 0.028078522311385269855" rpy="-1.1723904026554547997 0.24449876364280503926 -0.46734534731362947779" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.38963192793127932045 -0.26296555926646597579 0.028078522311385269855" rpy="-1.1723904026554547997 0.24449876364280503926 -0.46734534731362947779" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.66937382017402879963 -0.0066634213055931472425 0.30211410762036666755" rpy="1.1713638463393194478 0.5731320787085260049 -1.7502022652855508955" />
+<origin xyz="-0.66937382017403002088 -0.0066634213055922174307 0.30211410762036400302" rpy="1.1713638463393167832 0.57313207870850924053 -1.7502022652855426799" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.66937382017402879963 -0.0066634213055931472425 0.30211410762036666755" rpy="1.1713638463393194478 0.5731320787085260049 -1.7502022652855508955" />
+<origin xyz="-0.66937382017403002088 -0.0066634213055922174307 0.30211410762036400302" rpy="1.1713638463393167832 0.57313207870850924053 -1.7502022652855426799" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.41002484339689354575 -0.31742956063322458338 0.16761652894709358486" rpy="-1.1723904026565701297 0.24449876363223876918 -0.46734534731822918729" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.41002484339689354575 -0.31742956063322458338 0.16761652894709358486" rpy="-1.1723904026565701297 0.24449876363223876918 -0.46734534731822918729" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.33532639936781505341 -0.2590573362818598957 -0.0094859110976890110428" rpy="-2.0625928396665242914 -0.64827436699031282252 2.8855457781326951938" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.33532639936781505341 -0.2590573362818598957 -0.0094859110976890110428" rpy="-2.0625928396665242914 -0.64827436699031282252 2.8855457781326951938" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.67088589462912529005 0.089137174075327924028 0.03284187802588867805" rpy="2.142045132075176106 0.027121135866641318812 -1.4985676353773023095" />
+<origin xyz="-0.670885894629125068 0.089137174075316905064 0.03284187802588798416" rpy="2.1420451320751747737 0.027121135866671274017 -1.4985676353773491609" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.67088589462912529005 0.089137174075327924028 0.03284187802588867805" rpy="2.142045132075176106 0.027121135866641318812 -1.4985676353773023095" />
+<origin xyz="-0.670885894629125068 0.089137174075316905064 0.03284187802588798416" rpy="2.1420451320751747737 0.027121135866671274017 -1.4985676353773491609" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.4876359670918341549 -0.22833330769494059043 0.47537077988303577669" rpy="1.5696344788028275818 -0.14519719617093171382 -2.1390470781229589115" />
+<origin xyz="-0.487635967091516076 -0.22833330769444407093 0.47537077988327608447" rpy="1.5696344788028275818 -0.14519719617093171382 -2.1390470781229589115" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.4876359670918341549 -0.22833330769494059043 0.47537077988303577669" rpy="1.5696344788028275818 -0.14519719617093171382 -2.1390470781229589115" />
+<origin xyz="-0.487635967091516076 -0.22833330769444407093 0.47537077988327608447" rpy="1.5696344788028275818 -0.14519719617093171382 -2.1390470781229589115" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.69368917885849779026 -0.13870273549328462903 0.21603393001685761154" rpy="-0.65644232617444731037 -0.21418645043143924589 -2.9287350124918014593" />
+<origin xyz="-0.69368917885849812333 -0.13870273549328535068 0.21603393001685752828" rpy="-0.65644232617443509792 -0.21418645043144643458 -2.9287350124917956862" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.69368917885849779026 -0.13870273549328462903 0.21603393001685761154" rpy="-0.65644232617444731037 -0.21418645043143924589 -2.9287350124918014593" />
+<origin xyz="-0.69368917885849812333 -0.13870273549328535068 0.21603393001685752828" rpy="-0.65644232617443509792 -0.21418645043144643458 -2.9287350124917956862" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.48072243785726009868 -0.12987604235164307287 -0.084320433170248038079" rpy="2.9663025048620070834 -1.1785453305185518147 -1.9503142078914970092" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.48072243785726009868 -0.12987604235164307287 -0.084320433170248038079" rpy="2.9663025048620070834 -1.1785453305185518147 -1.9503142078914970092" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.1805834232481021151 -0.19241685161940569326 -0.00086978954302985170624" rpy="-2.3621400632147810938 -0.025801661912472063226 -2.5780260901210718671" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.1805834232481021151 -0.19241685161940569326 -0.00086978954302985170624" rpy="-2.3621400632147810938 -0.025801661912472063226 -2.5780260901210718671" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.66857409861761940562 0.089402792031019015506 0.029225934676940817925" rpy="2.1420451320751694446 0.027121135866650450397 -1.4985676353773165204" />
+<origin xyz="-0.66857409861761929459 0.08940279203100801042 0.029225934676940127505" rpy="2.1420451320751681124 0.027121135866680419479 -1.4985676353773633718" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.66857409861761940562 0.089402792031019015506 0.029225934676940817925" rpy="2.1420451320751694446 0.027121135866650450397 -1.4985676353773165204" />
+<origin xyz="-0.66857409861761929459 0.08940279203100801042 0.029225934676940127505" rpy="2.1420451320751681124 0.027121135866680419479 -1.4985676353773633718" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.64081841923449445186 -0.17553563169326172333 0.1954439975381224992" rpy="-0.45260953833502975963 -0.53408357696507136048 2.815369499759445393" />
+<origin xyz="-0.64081841923449422982 -0.17553563169326208415 0.19544399753812277676" rpy="-0.45260953833501527122 -0.53408357696506780776 2.8153694997594538307" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.64081841923449445186 -0.17553563169326172333 0.1954439975381224992" rpy="-0.45260953833502975963 -0.53408357696507136048 2.815369499759445393" />
+<origin xyz="-0.64081841923449422982 -0.17553563169326208415 0.19544399753812277676" rpy="-0.45260953833501527122 -0.53408357696506780776 2.8153694997594538307" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.51840785567179759052 -0.23346427141291600793 0.10267504206552191537" rpy="-0.81216708793217318174 0.99181969789920387814 0.10179847547152989784" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/cuerpo.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="cuerpo_material">
 <color rgba="0.71764705882352941568 0.71764705882352941568 0.71764705882352941568 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.51840785567179759052 -0.23346427141291600793 0.10267504206552191537" rpy="-0.81216708793217318174 0.99181969789920387814 0.10179847547152989784" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/cuerpo.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.68265056930785361633 -0.15985969458542267918 0.24521993657333363004" rpy="-2.6704050499998648327 -0.51815755375424299434 1.2533383018590815716" />
+<origin xyz="-0.68265056930785250611 -0.15985969458542334531 0.24521993657333404637" rpy="-2.6704050499998688295 -0.51815755375423044882 1.2533383018590993352" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.68265056930785361633 -0.15985969458542267918 0.24521993657333363004" rpy="-2.6704050499998648327 -0.51815755375424299434 1.2533383018590815716" />
+<origin xyz="-0.68265056930785250611 -0.15985969458542334531 0.24521993657333404637" rpy="-2.6704050499998688295 -0.51815755375423044882 1.2533383018590993352" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.65842062553517577417 -0.014384241383458220773 0.33280151247825473515" rpy="2.4587720445540144354 0.066773667296385494363 -2.5776858237038045019" />
+<origin xyz="-0.65842062553517655132 -0.014384241383456930138 0.33280151247825240368" rpy="2.4587720445540250935 0.066773667296372518631 -2.5776858237037938437" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.65842062553517577417 -0.014384241383458220773 0.33280151247825473515" rpy="2.4587720445540144354 0.066773667296385494363 -2.5776858237038045019" />
+<origin xyz="-0.65842062553517655132 -0.014384241383456930138 0.33280151247825240368" rpy="2.4587720445540250935 0.066773667296372518631 -2.5776858237037938437" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.6631808408896784357 -0.018499640841219782555 0.3184469247285102167" rpy="1.1713638463393196698 0.5731320787085260049 -1.7502022652855508955" />
+<origin xyz="-0.6631808408896794349 -0.018499640841218523146 0.31844692472850771869" rpy="1.1713638463393170053 0.57313207870850924053 -1.7502022652855426799" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.6631808408896784357 -0.018499640841219782555 0.3184469247285102167" rpy="1.1713638463393196698 0.5731320787085260049 -1.7502022652855508955" />
+<origin xyz="-0.6631808408896794349 -0.018499640841218523146 0.31844692472850771869" rpy="1.1713638463393170053 0.57313207870850924053 -1.7502022652855426799" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.57413323104100699723 -0.14299654723610608076 0.072402882954402003612" rpy="2.0137934455214359097 0.38591987117216947079 -2.1396822672569548729" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
-<material name="part_1_material">
+<material name="bracket_material">
 <color rgba="0.29411764705882353921 0.44313725490196076429 0.16470588235294117418 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.57413323104100699723 -0.14299654723610608076 0.072402882954402003612" rpy="2.0137934455214359097 0.38591987117216947079 -2.1396822672569548729" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/part_1.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bracket.stl"/>
 </geometry>
 </collision>
 <visual>
@@ -1654,181 +1653,181 @@
 <visual>
 <origin xyz="-0.48439854446154179124 -0.12766378886387325098 -0.084033771802408868679" rpy="2.9663025048620217383 -1.1785453305185407125 -1.9503142078915030044" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.48439854446154179124 -0.12766378886387325098 -0.084033771802408868679" rpy="2.9663025048620217383 -1.1785453305185407125 -1.9503142078915030044" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.18892442885084256843 -0.17993382350293662952 -0.015695835360391405949" rpy="-2.3621400632147806498 -0.025801661912472063226 -2.5780260901210718671" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.18892442885084256843 -0.17993382350293662952 -0.015695835360391405949" rpy="-2.3621400632147806498 -0.025801661912472063226 -2.5780260901210718671" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.37750340838788037923 -0.26077385208087200397 0.023127180505237161789" rpy="-2.6497961407181707116 0.64827436699030893674 -0.25604687545710291818" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.37750340838788037923 -0.26077385208087200397 0.023127180505237161789" rpy="-2.6497961407181707116 0.64827436699030893674 -0.25604687545710291818" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.53089461561657846911 -0.28920805757174466999 0.31230007093911560379" rpy="-3.1385385002229360119 1.1848745606923796192 1.0052069977670454737" />
+<origin xyz="-0.53089461561626094532 -0.28920805757124823376 0.31230007093935518991" rpy="-3.1385385002229360119 1.1848745606923796192 1.0052069977670454737" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.53089461561657846911 -0.28920805757174466999 0.31230007093911560379" rpy="-3.1385385002229360119 1.1848745606923796192 1.0052069977670454737" />
+<origin xyz="-0.53089461561626094532 -0.28920805757124823376 0.31230007093935518991" rpy="-3.1385385002229360119 1.1848745606923796192 1.0052069977670454737" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.59498320391195813617 -0.099721998589201304997 0.0617184677288599437" rpy="2.0219034511897446826 -0.5288178897308416504 -0.80858413784482741082" />
+<origin xyz="-0.59498320391196524159 -0.099721998589212629271 0.061718467728854461973" rpy="2.0219034511897446826 -0.5288178897308416504 -0.80858413784482741082" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.59498320391195813617 -0.099721998589201304997 0.0617184677288599437" rpy="2.0219034511897446826 -0.5288178897308416504 -0.80858413784482741082" />
+<origin xyz="-0.59498320391196524159 -0.099721998589212629271 0.061718467728854461973" rpy="2.0219034511897446826 -0.5288178897308416504 -0.80858413784482741082" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.54867669550420428148 -0.27784993068097596502 0.31232432796466380598" rpy="-3.1385385002229471141 1.1848745606923793972 1.005206997767047028" />
+<origin xyz="-0.5486766955038867577 -0.2778499306804795288 0.31232432796490339211" rpy="-3.1385385002229471141 1.1848745606923793972 1.005206997767047028" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
-<material name="yb-sd15m-top-cover-ld_v3_material">
+<material name="bmotorfront_material">
 <color rgba="0.94901960784313721398 0.76078431372549015776 0.18039215686274509554 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.54867669550420428148 -0.27784993068097596502 0.31232432796466380598" rpy="-3.1385385002229471141 1.1848745606923793972 1.005206997767047028" />
+<origin xyz="-0.5486766955038867577 -0.2778499306804795288 0.31232432796490339211" rpy="-3.1385385002229471141 1.1848745606923793972 1.005206997767047028" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-top-cover-ld_v3.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bmotorfront.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.67593241917633173355 -0.15740573905200858085 0.23127379325578348301" rpy="2.0234058651299124953 0.53408357696506791878 -0.3262231538303489442" />
+<origin xyz="-0.67593241917633162252 -0.15740573905200908045 0.23127379325578348301" rpy="2.0234058651298982845 0.53408357696506447709 -0.32622315383034028446" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.67593241917633173355 -0.15740573905200858085 0.23127379325578348301" rpy="2.0234058651299124953 0.53408357696506791878 -0.3262231538303489442" />
+<origin xyz="-0.67593241917633162252 -0.15740573905200908045 0.23127379325578348301" rpy="2.0234058651298982845 0.53408357696506447709 -0.32622315383034028446" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.34148802582735204858 -0.35106927645333735333 0.18899382133727560262" rpy="0.28284522496649444623 0.51106636222573464945 -2.5019121951258269654" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.34148802582735204858 -0.35106927645333735333 0.18899382133727560262" rpy="0.28284522496649444623 0.51106636222573464945 -2.5019121951258269654" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.52727077943094835533 -0.29152274693810953377 0.31229512756423999376" rpy="-3.1385385002229519991 1.1848745606923904994 1.0052069977670456957" />
+<origin xyz="-0.52727077943063083154 -0.29152274693761309754 0.31229512756447957988" rpy="-3.1385385002229519991 1.1848745606923904994 1.0052069977670456957" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
-<material name="yb-sd15m-bottom-cover-ld_v2_material">
+<material name="amotorback_material">
 <color rgba="0.2313725490196078538 0.38039215686274507888 0.7058823529411765163 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.52727077943094835533 -0.29152274693810953377 0.31229512756423999376" rpy="-3.1385385002229519991 1.1848745606923904994 1.0052069977670456957" />
+<origin xyz="-0.52727077943063083154 -0.29152274693761309754 0.31229512756447957988" rpy="-3.1385385002229519991 1.1848745606923904994 1.0052069977670456957" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-bottom-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotorback.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.63867239998023550562 -0.17217931911598707839 0.19706256704357424936" rpy="-0.45260953833502787225 -0.5340835769650630338 2.8153694997594405081" />
+<origin xyz="-0.63867239998023528358 -0.17217931911598743921 0.19706256704357444365" rpy="-0.45260953833501332833 -0.53408357696505948109 2.8153694997594493898" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
-<material name="yb-sd15m-middle-cover-ld_v2_material">
+<material name="amotor_material">
 <color rgba="0.64705882352941179736 0.64705882352941179736 0.64705882352941179736 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.63867239998023550562 -0.17217931911598707839 0.19706256704357424936" rpy="-0.45260953833502787225 -0.5340835769650630338 2.8153694997594405081" />
+<origin xyz="-0.63867239998023528358 -0.17217931911598743921 0.19706256704357444365" rpy="-0.45260953833501332833 -0.53408357696505948109 2.8153694997594493898" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/yb-sd15m-middle-cover-ld_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/amotor.stl"/>
 </geometry>
 </collision>
 <visual>
 <origin xyz="-0.52470843440980474703 -0.29849513501478819322 0.32330605599394518501" rpy="-1.5693548850240062187 -0.64757273338221199577 1.0015079169775313872" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
-<material name="auxrudderdisk_v2_material">
+<material name="discoaux_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="-0.52470843440980474703 -0.29849513501478819322 0.32330605599394518501" rpy="-1.5693548850240062187 -0.64757273338221199577 1.0015079169775313872" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/auxrudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/discoaux.stl"/>
 </geometry>
 </collision>
 <visual>
-<origin xyz="-0.61526251705427670302 -0.15399118046098561607 0.20136689994524098468" rpy="2.0891524590223267133 0.70789515838867411723 -0.21373011120189744361" />
+<origin xyz="-0.61526251705427670302 -0.15399118046098564383 0.20136689994524098468" rpy="2.0891524590223098379 0.70789515838867189679 -0.21373011120189250311" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
-<material name="rudderdisk_v2_material">
+<material name="bdisco_material">
 <color rgba="0.95686274509803925792 0.95686274509803925792 0.95686274509803925792 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="-0.61526251705427670302 -0.15399118046098561607 0.20136689994524098468" rpy="2.0891524590223267133 0.70789515838867411723 -0.21373011120189744361" />
+<origin xyz="-0.61526251705427670302 -0.15399118046098564383 0.20136689994524098468" rpy="2.0891524590223098379 0.70789515838867189679 -0.21373011120189250311" />
 <geometry>
-<mesh filename="package://hexapod_description/hexapodv1/rudderdisk_v2.stl"/>
+<mesh filename="package://hexapod_description/hexapodv1/bdisco.stl"/>
 </geometry>
 </collision>
 <inertial>
